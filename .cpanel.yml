@@ -3,3 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/boxgra6/tanvi.calisearch.org/
     - /bin/cp -R * $DEPLOYPATH
+    - npm install
+    - npm run build
+    - /bin/cp -R build/* $DEPLOYPATH
