@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/boxgra6/tanvi.calisearch.org/
+    - /bin/cp -R * $DEPLOYPATH
